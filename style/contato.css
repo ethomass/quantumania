@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+/* 'Roboto Condensed', sans-serif; */
+
+
+* {
+    margin: 0px;
+    padding: 0px;    
+}
+
+
+:root {
+    --cor0:#ffffff;
+    --cor1:#11b4d1;
+    --cor2:#072641;
+    --cor3:#031624;
+    --cor4:#02070b;
+    --cor5:#010101;
+
+    --font-padrão: arial, helvetica, sans-serif;
+    --font-destaque: 'Roboto Condensed', sans-serif;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+header {
+    margin: 1.5px 1.5px 1.5px 0px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#logo :hover {
+    color: var(--cor1);
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .5s;
+    text-decoration: none;
+    font-family: var(--font-destaque)
+}
+
+li :hover {
+    color: #ea2228
+}
+
+a {
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
